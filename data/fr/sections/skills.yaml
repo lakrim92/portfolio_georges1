@@ -1,0 +1,60 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/skills.html
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "Expérience avec la plupart des grands fournisseurs de cloud tels que GCP, AWS, Azure, etc."
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Développement de la plupart des programmes sous forme de conteneurs Docker. Expérience avec le processus de construction multi-stage et multi-architecture."
+  url: "https://www.docker.com/"
+
+- name: Prometheus
+  logo: /images/sections/skills/prometheus.png
+  summary: "Capable de configurer et gérer les métriques Prometheus. Expérience avec PromQL, AlertManager. Également expérimenté dans l'écriture d'exportateurs de métriques."
+  url: "https://prometheus.io/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Utilisation comme système d'exploitation principal. Capable d'écrire des scripts bash/shell."
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Expérience avec le développement basé sur Git. Utilisation principalement de Github. Expérience également avec GitLab."
+  url: "https://git-scm.com/"
+
+- name: C
+  logo: /images/sections/skills/c.png
+  summary: "Connaissance de la programmation de base en C. Utilisé pour la programmation de concours et la résolution de problèmes."
+
+- name: Développement Web Fullstack
+  logo: /images/sections/skills/web-development.png
+  summary: "Capable de concevoir des applications web interactives et performantes en utilisant Flutter et d'autres technologies."
+
+- name: Scripts d'Automatisation
+  logo: /images/sections/skills/automation.png
+  summary: "Capable de développer des scripts d'automatisation sophistiqués pour diverses tâches."
+
+- name: Configuration de Serveurs Sécurisés
+  logo: /images/sections/skills/server-setup.png
+  summary: "Capable de créer et configurer des serveurs sécurisés et des systèmes d'exploitation personnalisés."
+
+- name: DevOps
+  logo: /images/sections/skills/devops.png
+  summary: "Diplômé en DevOps du CNAM Paris, combinant une solide formation académique avec une pratique professionnelle approfondie."
+
+- name: Certifications
+  logo: /images/sections/skills/certifications.png
+  summary: "Actuellement en cours de certification avec OpenClassrooms, Cisco Packet Tracer, et AWS pour rester à la pointe de la technologie."

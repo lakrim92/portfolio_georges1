@@ -1,0 +1,80 @@
+# section information
+section:
+  name: À propos
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Développeur Web Fullstack Flutter & DevOps
+# your company information
+# company: #
+#   name: #
+#   url: "#"
+
+
+# a summary about you
+summary: "Je suis un développeur web full-stack dynamique, spécialisé en Flutter et DevOps. Mon expertise me permet de concevoir des applications web interactives et performantes tout en développant des scripts d'automatisation sophistiqués. Je me spécialise également dans la création de serveurs sécurisés et de systèmes d'exploitation personnalisés, optimisant ainsi l'infrastructure pour répondre aux besoins spécifiques de chaque projet.<br><br> En parallèle, je perfectionne mes compétences avec des certifications en cours chez OpenClassrooms, Cisco Packet Tracer, et AWS, pour rester à la pointe des innovations technologiques.<br><br> Diplômé en Développement et Exploitation Informatique du CNAM de Paris, je combine une solide formation académique avec une pratique professionnelle approfondie pour offrir des solutions modernes et efficaces dans le domaine du développement et des opérations."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "gdietrich@live.fr"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/lakrim92"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://linkedin.com/in/georges-dietrich-5ab82b14a"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "Mon CV"
+  url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates bnom https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Certifié Python Openclassrooms et le CNAM
+  url: "https://openclassrooms.com/fr/course-certificates/9983336297"
+  badge: "https://www.python.org/static/community_logos/python-powered-h.svg"
+
+- type: certification
+  name: Certifié Docker Openclassrooms et le CNAM
+  url: "https://openclassrooms.com/fr/course-certificates/8665668863"
+  badge: "https://www.kindpng.com/picc/m/342-3423390_docker-icon-png-transparent-png.png"
+
+- type: certification
+  name: Certifié Linux Openclassrooms et le CNAM
+  url: "https://openclassrooms.com/fr/course-certificates/5322438441"
+  badge: "https://www.kindpng.com/picc/m/290-2902020_linux-penguin-linux-penguin-gif-hd-png-download.png"
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 85
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

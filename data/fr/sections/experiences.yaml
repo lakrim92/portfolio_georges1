@@ -1,0 +1,80 @@
+# Informations de la section
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  template: sections/experiences.html
+  # Vous pouvez éventuellement masquer le titre dans les sections
+  # hideTitle: true 
+
+# Vos expériences
+experiences:
+  - company:
+      name: Studi
+      url: "https://www.studi.com" # Remplacez par l'URL réelle si disponible
+      location: Bougival
+      logo: /images/sections/experiences/studi-dark.jpg
+      # Vous pouvez éventuellement afficher un logo différent pour le thème sombre
+      # darkLogo: /images/sections/experiences/le-garage-numerique-dark.jpg
+      overview: Studi est un établissement spécialisé dans la formation au développement web, avec un accent particulier sur les technologies front-end et back-end.
+    positions:
+      - designation: Développeur Web Fullstack Flutter
+        start: Décembre 2022
+        end: Août 2024
+        responsibilities:
+          - Formation complète en développement web couvrant les technologies front-end et back-end
+          - Développement d'applications mobiles multiplateformes avec Flutter et Dart
+          - Création d'interfaces utilisateur réactives et performantes
+          - Apprentissage de HTML, CSS, JavaScript et des frameworks front-end tels que React
+          - Études approfondies des langages de programmation côté serveur comme Node.js et des bases de données, y compris SQL et MongoDB
+
+  - company:
+      name: Le Garage Numérique
+      url: "https://www.legaragenumerique.fr/" # Remplacez par l'URL réelle si disponible
+      location: Paris
+      logo: /images/sections/experiences/le-garage-numerique.jpg
+      # Vous pouvez éventuellement afficher un logo différent pour le thème sombre
+      # darkLogo: /images/sections/experiences/le-garage-numerique-dark.jpg
+      overview: Le Garage Numérique est une association fondée en 2014 par des habitants du quartier des Amandiers (Père Lachaise/Ménilmontant) pour faciliter l'utilisation des outils informatiques pour les résidents et associations locales.
+    positions:
+      - designation: Stagiaire Technicien Informatique DevOps
+        start: Avril 2024
+        end: Mai 2024
+        responsibilities:
+          - Dépannage et maintenance des ordinateurs
+          - Conception, assemblage et installation d'un serveur
+          - Mise en place et configuration d'outils d'automatisation
+          - Configuration réseau PXE et rédaction de documentation technique
+          - Développement d'une image OS personnalisée
+
+      - designation: Stagiaire Technicien Informatique DevOps
+        start: Décembre 2023
+        end: Janvier 2024
+        responsibilities:
+          - Dépannage et maintenance des ordinateurs
+          - Conception, assemblage et installation d'un serveur
+          - Mise en place et configuration d'outils d'automatisation
+          - Configuration réseau PXE et rédaction de documentation technique
+
+  - company:
+      name: Freelance Dietrich Georges
+      url: "#" # Lien à remplir si disponible
+      location: Ile de France
+      logo: "#" # Lien à remplir si disponible
+      overview: |
+        En tant que freelance, je combine mes compétences en tant que technicien informatique et développeur web fullstack. Avec une expertise dans les technologies modernes telles que Flutter, ReactJS, PHP et WordPress, je crée des applications web et mobiles sur mesure, adaptées aux besoins spécifiques de chaque client. Ma solide expérience en dépannage informatique, ainsi que mon approche orientée vers la performance et la fiabilité, me permet de fournir des solutions complètes, allant de la gestion des infrastructures informatiques à la conception d'applications innovantes. Mon objectif est de livrer des projets qui améliorent l'efficacité, la sécurité et l'expérience utilisateur.
+    positions:
+      - designation: Freelance Technicien Informatique et Développeur Web Fullstack
+        start: Septembre 2024
+        responsibilities:
+          - "Audit et gestion d'infrastructure informatique : Diagnostic et résolution de problèmes techniques complexes, gestion de la maintenance préventive et corrective des systèmes, et optimisation de l’infrastructure IT pour garantir des performances maximales."
+          - "Développement web fullstack sur mesure : Création de sites web, applications web et solutions sur mesure en utilisant les technologies Flutter, ReactJS, PHP et WordPress. Mise en œuvre de solutions interactives et responsives pour offrir une expérience utilisateur fluide sur toutes les plateformes."
+          - "Conception et déploiement d'applications mobiles multiplateformes : Développement d'applications mobiles avec Flutter, permettant une couverture optimale sur Android et iOS avec un seul codebase, tout en garantissant une interface utilisateur fluide et performante."
+          - "Automatisation et optimisation des processus IT : Mise en place d'outils d'automatisation pour faciliter la gestion des systèmes, réduire les coûts d'exploitation et améliorer l'efficacité des processus métier."
+          - "Formation et accompagnement des équipes : Formation des équipes techniques internes sur les bonnes pratiques de développement, d’infrastructure, et de maintenance, ainsi que sur l'utilisation des outils spécifiques à chaque projet."
+          - "Suivi et support technique continu : Fourniture d'un support technique de qualité à long terme pour assurer la continuité des services, la sécurité des systèmes et une mise à jour constante des technologies utilisées."
+          - "Gestion de projet agile et collaboration efficace : Travail en étroite collaboration avec les clients pour définir les besoins, établir les priorités et garantir la livraison dans les délais, tout en respectant les standards de qualité."
+          - "Solutions évolutives et performantes : Conception de solutions évolutives qui grandissent avec les besoins de votre entreprise, en intégrant les dernières innovations technologiques et les meilleures pratiques de développement."
+          - "Sécurisation des systèmes et des données : Mise en place de mesures de sécurité robustes pour protéger les données sensibles, avec une attention particulière portée à la conformité des systèmes aux meilleures normes de sécurité."

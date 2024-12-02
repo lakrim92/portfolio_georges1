@@ -1,0 +1,102 @@
+# section information
+section:
+  name: Parcours académique
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: DevOps, Administration et Gestion de l'Informatique / Technologies de l'Information
+  icon: fa-graduation-cap
+  timeframe: Octobre 2023 - Juin 2024
+  institution:
+    name: CNAM, Paris
+    url: "#"
+    logo: /images/sections/education/cnam-logo.png
+    # Peut également afficher un logo différent pour le thème sombre
+    # darkLogo: /images/sections/education/cnam-logo-dark.png
+  # grade: #(optionnel)
+    # scale: CGPA
+    # achieved: 3.6
+    # outOf: 4
+  takenCourses: #(optionnel)
+    # si vrai, les cours seront affichés sous forme de tableau, sinon ils seront affichés sous forme de liste et les notes seront cachées.
+    # showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Algorithmique
+      achieved: OK
+      outOf: 4
+    - name: Bases de Données
+      achieved: 3.80
+      outOf: 4
+    - name: Réseaux et Systèmes
+      achieved: 3.5
+      outOf: 4
+    - name: Sécurité et Résolution d’Incidents
+      achieved: 3.75
+      outOf: 4
+
+- name: Formation Intensive en Programmation Informatique et Développement Logiciel
+  icon: fa-graduation-cap
+  timeframe: Juillet 2023 - Mai 2024
+  institution:
+    name: La Piscine | École 42
+    url: "#"
+    logo: /images/sections/education/ecole42-logo.png
+    # Peut également afficher un logo différent pour le thème sombre
+    # darkLogo: /images/sections/education/ecole42-logo-dark.png
+  # grade: #(optionnel)
+    # scale: CGPA
+    # achieved: 3.7
+    # outOf: 4
+  takenCourses: #(optionnel)
+    # showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Programmation en C
+      achieved: 3.75
+      outOf: 4
+    - name: Structures de Données et Algorithmes
+      achieved: 3.80
+      outOf: 4
+    - name: Techniques de Résolution de Problèmes
+      achieved: 3.7
+      outOf: 4
+    - name: Projets d’Apprentissage Collaboratif
+      achieved: 3.8
+      outOf: 4
+
+- name: Développement Web Fullstack avec Flutter
+  icon: fa-graduation-cap
+  timeframe: Décembre 2022 - Août 2024
+  institution:
+    name: Studi
+    url: "https://www.studi.com"
+    logo: /images/sections/education/studi-logo.png
+    # Peut également afficher un logo différent pour le thème sombre
+    # darkLogo: /images/sections/education/studi-logo-dark.png
+  # grade: #(optionnel)
+    # scale: CGPA
+    # achieved: 3.8
+    # outOf: 4
+  takenCourses: #(optionnel)
+    # showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Développement Front-end
+      achieved: 3.85
+      outOf: 4
+    - name: Développement Back-end
+      achieved: 3.80
+      outOf: 4
+    - name: Développement d'Applications Mobiles avec Flutter
+      achieved: 3.9
+      outOf: 4
+    - name: Bases de Données et Programmation Serveur
+      achieved: 3.75
+      outOf: 4
