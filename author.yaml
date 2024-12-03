@@ -1,0 +1,22 @@
+# some information about you
+name: "Georges Dietrich"
+nickname: "Georges"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Salut, je suis"
+image: "images/author/imgProfil.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  Email: "gdietrich@live.fr"
+  Tel: "+33788478222"
+  github: https://github.com/lakrim92
+  linkedin: www.linkedin.com/in/georges-dietrich-5ab82b14a
+  researchgate: Georges-Dietrich
+
+
+# some summary about what you do
+summary:
+  - Je suis développeur web fullstack
+  - Je suis DevOps
+  - J'aime les serveurs et la cybersécurité
+  - Je travaille sur des projets open-source
+  - J'aime travailler sur des projets amusants

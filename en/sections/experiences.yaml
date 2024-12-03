@@ -1,0 +1,79 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  template: sections/experiences.html
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+  - company:
+      name: Studi
+      url: "https://www.studi.com" # Replace with the actual URL if available
+      location: Bougival
+      logo: /images/sections/experiences/studi-dark.jpg
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/experiences/studi-dark.jpg
+      overview: Studi is an institution specializing in web development training, with a particular focus on front-end and back-end technologies.
+    positions:
+      - designation: Fullstack Web Developer Flutter
+        start: December 2022
+        end: August 2024
+        responsibilities:
+          - Comprehensive training in web development covering front-end and back-end technologies
+          - Developing cross-platform mobile applications using Flutter and Dart
+          - Creating responsive and high-performance user interfaces
+          - Learning HTML, CSS, JavaScript, and front-end frameworks such as React
+          - In-depth studies of server-side programming languages like Node.js and databases including SQL and MongoDB
+
+  - company:
+      name: Le Garage Numérique
+      url: "https://www.legaragenumerique.fr/" # Replace with the actual URL if available
+      location: Paris
+      logo: /images/sections/experiences/le-garage-numerique.jpg
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/experiences/le-garage-numerique-dark.jpg
+      overview: Le Garage Numérique is an association founded in 2014 by residents of the Amandiers neighborhood (Père Lachaise/Ménilmontant) to facilitate the use of computer tools for local residents and associations.
+    positions:
+      - designation: IT Technician DevOps Intern
+        start: April 2024
+        end: May 2024
+        responsibilities:
+          - Troubleshooting and maintaining computers
+          - Designing, assembling, and installing a server
+          - Setting up and configuring automation tools
+          - PXE network setup and writing technical documentation
+          - Developing a custom OS image
+
+      - designation: IT Technician DevOps Intern
+        start: December 2023
+        end: January 2024
+        responsibilities:
+          - Troubleshooting and maintaining computers
+          - Designing, assembling, and installing a server
+          - Setting up and configuring automation tools
+          - PXE network setup and writing technical documentation
+
+  - company:
+      name: Freelance Dietrich Georges
+      url: "#" # Replace with the actual URL if available
+      location: Ile de France
+      logo: "#" # Replace with the actual URL if available
+      overview: |
+        As a freelancer, I combine my skills as an IT technician and full-stack web developer. With expertise in modern technologies such as Flutter, ReactJS, PHP, and WordPress, I create custom web and mobile applications tailored to each client’s specific needs. My solid experience in IT troubleshooting, coupled with a performance- and reliability-oriented approach, enables me to provide comprehensive solutions—from managing IT infrastructure to designing innovative applications. My goal is to deliver projects that enhance efficiency, security, and user experience.
+    positions:
+      - designation: Freelance IT Technician and Fullstack Web Developer
+        start: September 2024
+        responsibilities:
+          - Diagnosing and resolving complex technical issues, managing preventive and corrective system maintenance, and optimizing IT infrastructure to ensure peak performance.
+          - Building websites, web applications, and custom solutions using Flutter, ReactJS, PHP, and WordPress. Implementing interactive and responsive solutions to provide a seamless user experience across all platforms.
+          - Developing mobile applications with Flutter, enabling optimal coverage on Android and iOS from a single codebase, while ensuring a smooth and high-performance user interface.
+          - Implementing automation tools to streamline system management, reduce operational costs, and improve business process efficiency.
+          - Training internal technical teams on best practices in development, infrastructure, and maintenance, as well as on tools specific to each project.
+          - Providing long-term, quality technical support to ensure service continuity, system security, and continuous updates of the technologies used.
+          - Working closely with clients to define requirements, set priorities, and ensure timely delivery while maintaining quality standards.
+          - Designing scalable solutions that grow with your business needs, integrating the latest technological innovations and best development practices.
